@@ -1,0 +1,10 @@
+@BASE_URL = "https://lambdaFunction.url/"
+// Using the .http files
+
+
+POST {{BASE_URL}}/email
+Content-Type: application/json
+
+{
+  # Webhook event
+}
